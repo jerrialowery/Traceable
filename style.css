@@ -1,0 +1,53 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  height: 1600px;
+  background-image: linear-gradient(#FEFFFF, #DFCEFF);
+    hsla(0,0%,0%,.3);
+  }
+
+li {
+  float: right;
+  font-family: 'clear sans';
+  font-style:
+}
+
+a {
+  display: inline-block;
+  padding: 14px;
+}
+
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   font-weight: bold;
+
+}
+
+li {
+   float: right;
+}
+
+li a {
+   display: block;
+   color: black;
+   text-align: center;
+   padding: 18px 24px;
+   text-decoration: none;
+}
+
+li a:hover {
+   color: #963cfc;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
