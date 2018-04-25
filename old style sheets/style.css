@@ -24,6 +24,7 @@ body {
     font-size: 14px;
     list-style-type: none;
 
+
   }
 
 li {
@@ -114,6 +115,7 @@ $div {
   position: relative;
   top: 10px;
   left: 10px;
+  margin-bottom: 100px;
 }
 
 #point1 {
@@ -135,4 +137,24 @@ $div {
 @keyframes anim2 {
   from {transform: translateX(-7px) rotate(-30deg);}
   to {transform: translateX(-4px) rotate(-10deg);}
+}
+
+.button2 {
+  background-color: #963cfc;
+  border: none;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 20px;
+  display: block;
+  list-style-type: none;
+  position: relative;
+
+}
+
+.button2.relative{
+  top: 50px;
+  position: relative;
+
 }
