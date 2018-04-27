@@ -28,6 +28,7 @@ body {
   }
 
 
+}
 
 li {
   float: right;
@@ -46,6 +47,7 @@ ul {
    padding-right: 30px;
    overflow: hidden;
    font-weight: bold;
+   font-family: 'Clear Sans';
 
 }
 
@@ -277,21 +279,52 @@ input[type=submit]:hover {
 }
 
 p {
-   float: left;
-   font-family: sans-serif;
-   font-style: normal;
-   font-weight: normal;
-   font-size: 16px;
-   margin-left: auto;
-   margin-right: auto;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  font-family: 'clear sans';
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 150px;
  }
 
 #wrapper {
- margin-left: 200px;
+   margin-left: 200px;
    margin-right: 200px;
    margin-top: 20px;
 
 }
+
+h3 {
+  font-family: 'Clear Sans';
+  font-weight: 300;
+  text-align: center;
+  font-size: 14px;
+  margin-left: 20px;
+  text-align: left;
+}
+
+
+h4 {
+  margin-left: ;
+  font-family:'Clear Sans';
+  display: inline-block;
+  position: relative;
+  margin-bottom: 3.5em;
+  margin-top: 1em;
+  line-height: 2em;
+}
+
+h6 {
+
+  font-family:'Clear Sans';
+  text-align: center;
+  font-weight: 300;
+  font-size: 18px;
+
+}
+
  .card {
  background: #fff;
  border-radius: 2px;
@@ -345,6 +378,47 @@ p {
  word-break: break-all;
 }
 
+.card-7 {
+ box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+ overflow-y: scroll;
+ word-break: break-all;
+}
+.card-8 {
+ box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+ overflow-y: scroll;
+ word-break: break-all;
+}
+
+.card-9 {
+ box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+ overflow-y: scroll;
+ word-break: break-all;
+}
+
+.card-10 {
+ box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+ overflow-y: scroll;
+ word-break: break-all;
+}
+
+.card-11 {
+ box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+ overflow-y: scroll;
+ word-break: break-all;
+}
+
+.card-12 {
+ box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+ overflow-y: scroll;
+ word-break: break-all;
+}
+
+.card-13 {
+ box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+ overflow-y: scroll;
+ word-break: break-all;
+}
+
 ::-webkit-scrollbar {width: 6px;}
 ::-webkit-scrollbar-track {
  background-color: rgba(25, 25, 25, 0.2);
@@ -353,4 +427,8 @@ p {
 }
 ::-webkit-scrollbar-thumb {
  background-color:  #963cfc;
+}
+
+.img2 {
+  margin-top: 40px;
 }
