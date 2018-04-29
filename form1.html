@@ -20,69 +20,47 @@
 
   <h1>SIMULATION</h1>
 
-<h2> Please Note! This process is a simulation. Do Not fill in real or personal
-     information in each field. </h2>
+<!-- <h2> Please Note! This process is a simulation. Do Not fill in real or personal
+     information in each field. </h2> -->
 
 
 
 <body>
 
-  <form action="/action_page.php">
-    What city do you live in?<br>
-    <input type="text" name="Response" value="">
-    <br><br>
-    <input type="submit" value="submit">
+
+
+<form>
+  <fieldset>
+    <label for="nameField">Name</label>
+    <input type="text" placeholder="CJ Patoilo" id="nameField">
+    <label for="ageRangeField">Age Range</label>
+    <select id="ageRangeField">
+      <option value="0-13">0-13</option>
+      <option value="14-17">14-17</option>
+      <option value="18-23">18-23</option>
+      <option value="24+">24+</option>
+    </select>
+    <label for="commentField">Comment</label>
+    <textarea placeholder="Hi CJ …" id="commentField"></textarea>
+    <div class="float-right">
+      <!-- <input type="checkbox" id="confirmField"> -->
+      <!-- <label class="label-inline" for="confirmField">Send a copy to yourself</label> -->
+    </div>
+    <input class="button-primary" type="submit" value="Send">
+  </fieldset>
 </form>
 
-<h2>Fill In Form To Begin Process</h2>
-<p>Please Note! This process is a simulation. Do Not fill in real or personal
-     information in each field.</p>
 
-<div class="container">
-  <form action="/action_page.php">
-    <div class="row">
-      <div class="col-25">
-        <label for="fname">First Name</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="fname" name="firstname" placeholder="Your name..">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="lname">Last Name</label>
-      </div>
-      <div class="col-75">
-        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="State">State</label>
-      </div>
-      <div class="col-75">
-        <select id="State" name="State">
-          <option value="Maryland">Maryland</option>
-          <option value="canada">Canada</option>
-          <option value="usa">USA</option>
-        </select>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-25">
-        <label for="subject">Subject</label>
-      </div>
-      <div class="col-75">
-        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-      </div>
-    </div>
-    <div class="row">
-      <input type="Submit" value="Submit">
-    </div>
-  </form>
+<div class="pagination">
+  <a href="#">&laquo;</a>
+  <a href="#">1</a>
+  <a href="#">2</a>
+  <a href="#">3</a>
+  <a href="#">4</a>
+  <a href="#">5</a>
+  <a href="#">6</a>
+  <a href="#">&raquo;</a>
 </div>
-
-
 
 
 

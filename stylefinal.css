@@ -19,7 +19,7 @@ body {
     font-family: 'clear sans';
     padding: 12px 20px;
     text-align: center;
-    margin-left: 00px;
+    margin-left: 200px;
     margin-right: 200px;
     margin-top: 10px;
     font-size: 14px;
@@ -44,7 +44,7 @@ a {
 ul {
    list-style-type: none;
    margin: 0;
-   padding-right: 30px;
+   padding-right: 120px;
    overflow: hidden;
    font-weight: bold;
    font-family: 'Clear Sans';
@@ -64,7 +64,7 @@ li a {
 }
 
 li a:hover {
-   color: #963cfc;
+   color: #77f04a;
 }
 
 img {
@@ -305,8 +305,18 @@ h3 {
   text-align: left;
 }
 
-
 h4 {
+  margin-left: ;
+  font-family:'Clear Sans';
+  display: inline-block;
+  position: relative;
+  margin-bottom: 3.5em;
+  margin-top: 1em;
+  line-height: 2em;
+}
+
+
+h5 {
   margin-left: ;
   font-family:'Clear Sans';
   display: inline-block;
@@ -431,4 +441,89 @@ h6 {
 
 .img2 {
   margin-top: 40px;
+}
+
+
+fieldset {
+    display: block;
+    -webkit-margin-start: 2px;
+    -webkit-margin-end: 2px;
+    -webkit-padding-before: 0.35em;
+    -webkit-padding-start: 0.75em;
+    -webkit-padding-end: 0.75em;
+    -webkit-padding-after: 0.625em;
+    min-width: -webkit-min-content;
+    border-width: 2px;
+    border-style: groove;
+    border-color: black;
+    border-image: initial;
+    width: 800px;
+    background-color: white;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1.5px solid black;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.pagination {
+    display: inline-block;
+    float: right;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    font-family: 'Clear Sans';
+    font-size: 20px;
+    font-weight: bold;
+
+
+}
+
+input[type=submit] {
+    background-color: #963cfc;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-top: 20px;
+}
+
+.pagination:hover a {
+   color: #77f04a;
+}
+
+.Overview {
+
+  float: left;
+  font-family: 'Clear Sans';
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  padding-left: 200px;
+  padding-right: 300px;
+  padding-top: 30px;
+}
+.OverviewHeader {
+
+  float: left;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 220px;
+  padding-right: 200px;
+  padding-top: 30px;
+
+
 }
