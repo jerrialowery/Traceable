@@ -16,7 +16,7 @@ body {
     background-color: #963cfc;
     border: none;
     text-decoration: none;
-    font-family: 'clear sans';
+    font-family: 'Clear Sans';
     padding: 12px 20px;
     text-align: center;
     margin-left: 200px;
@@ -27,6 +27,47 @@ body {
     color: white;
   }
 
+  a.button1:hover {
+
+     background-color: #77f04a;
+
+  }
+
+
+  .button3 {
+      /* background-color: #963cfc;
+      border: none;
+      text-decoration: none;
+      font-family: 'Clear Sans';
+      padding: 10px 18px;
+      text-align: center;
+      /* margin-left: 200px;
+      margin-right: 200px;
+      margin-top: 1px; */
+      /* float:right;
+      font-size: 12px;
+      list-style-type: none;
+      border-radius: 4px;
+      color: white; */
+      background-color: #963cfc;
+      color: white;
+      padding: 8px 16px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+float: right;
+margin-top: 20px;
+text-decoration: none;
+font-family: 'Clear Sans';
+      font-size: 14px;
+      font-weight: 200;
+
+
+}
+
+a.button3:hover {
+
+   background-color: #77f04a;
 
 }
 
@@ -160,7 +201,7 @@ $div {
 {
   background-color: #963cfc;
   border: none;
-
+  font-family: 'Clear Sans';
   padding: 12px 20px;
   text-align: center;
   margin: 0 auto;
@@ -188,8 +229,8 @@ h1 {
   margin-top: 1em;
   line-height: 2em;
   text-align:center;
-  font-family: sans-serif;
   color: #963cfc;
+  font-family: 'Clear Sans';
 }
 
 h2 {
@@ -485,8 +526,29 @@ input[type=text], select, textarea {
     font-size: 20px;
     font-weight: bold;
 
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1.5px solid black;
+    border-radius: 4px;
+    resize: vertical;
+    font-size: medium;
+}
+
+ol {
+
+margin-right: auto;
+margin-left: auto;
+padding-bottom: 200px;
 
 }
+.pagination a.active {
+   background-color: #77f04a;
+   color: #963cfc;
+}
+.pagination a:hover:not(.active) { background-color: white; }
 
 input[type=submit] {
     background-color: #963cfc;
@@ -499,9 +561,7 @@ input[type=submit] {
     margin-top: 20px;
 }
 
-.pagination:hover a {
-   color: #77f04a;
-}
+
 
 .Overview {
 
