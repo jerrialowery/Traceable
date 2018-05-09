@@ -59,6 +59,38 @@ a.button3:hover {
    background-color: #77f04a;
 
 }
+.glitch {
+  color: black;
+  font-size: 80px;
+  text-align: center;
+  margin-top: 200px;
+  font-family: 'Clear Sans';
+  font-weight: 300;
+  animation: noise-anim 2s infinite linear alternate-reverse;
+  transform: translate(0);
+
+}
+@keyframes glitch {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(1px, 1px);
+  }
+  40% {
+    transform: translate(-4px, 2px);
+  }
+  60% {
+    transform: translate(1px, 3px);
+  }
+  80% {
+    transform: translate(2px, -1px);
+  }
+  to {
+    transform: translate(0);
+  }
+}
+
 
 /* li {
   float: right;
@@ -503,14 +535,21 @@ input[type=text], select, textarea {
     resize: vertical;
 }
 
-.pagination {
-    display: inline-block;
-    float: right;
+.pagination.center {
+    /* left: 55%; */
+    margin-top: -50px;
 }
+.pagination.center,
+.pagination.center ul {
+    float: left;
+    position: relative;
+}
+.pagination.center { left: 55%; }
+.pagination.center ul { left: -50%; }
 
 .pagination a {
     color: black;
-    float: left;
+    /* float: left; */
     padding: 8px 16px;
     text-decoration: none;
     font-family: 'Clear Sans';
@@ -563,17 +602,26 @@ input[type=submit] {
   font-size: 16px;
   padding-left: 200px;
   padding-right: 300px;
-  width: 100%;
+  width: 90%;
+  line-height: 1.6;
 
 }
 .OverviewHeader {
 
-  font-family: sans-serif;
+  font-family: 'Clear Sans';
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
   padding-top: 30px;
   width: 100%;
+}
+
+.instructions {
+  font-family: 'Clear Sans';
+  font-size: 14px;
+  text-align: center;
+  font-weight: 200;
+
 }
 
 .OverviewHeader2 {
@@ -588,6 +636,25 @@ input[type=submit] {
     text-align: center;
     padding-top: 8;
     color: #77f04a;
+}
+.OverviewPageHeader {
+  float: left;
+  font-family: 'Clear Sans';
+  padding-left: 200px;
+  padding-right: 300px;
+  margin-bottom: -100px;
+}
+
+.CookiesOverview {
+  text-align: center;
+    font-family: 'Clear Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    padding-left: 200px;
+    padding-right: 300px;
+    width: 100%;
+    line-height: 1.6;
 }
 
 .Thankyou {
@@ -661,7 +728,13 @@ element.style {
     background: white;
 }
 
-
+.Response{
+  text-align: center;
+  font-family: 'Clear Sans';
+  font-size: 16px;
+  color: black;
+  margin-bottom: 1.5em;
+}
 .set2 {
     display: block;
     -webkit-margin-start: 2px;
@@ -680,4 +753,59 @@ element.style {
     margin-left: auto;
     margin-right: auto;
     margin-top: -200;
+}
+
+.Container2{
+  display: flex;
+  justify-content: center;
+
+}
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container (positioning is needed to position the close button and the text) */
+.container3 {
+    position: relative;
+    /* display: none; */
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+.Posters{
+  text-align: center;
+}
+/* Closable button inside the image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
 }
