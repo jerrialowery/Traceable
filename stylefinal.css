@@ -59,6 +59,8 @@ a.button3:hover {
    background-color: #77f04a;
 
 }
+
+}
 .glitch {
   color: black;
   font-size: 80px;
@@ -757,6 +759,11 @@ element.style {
 
 .Container2{
   display: flex;
+  justify-content: center;
+
+}
+.Container4{
+  margin-top: -100;
   justify-content: center;
 
 }
